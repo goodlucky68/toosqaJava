@@ -10,7 +10,7 @@ public class Car1 {
     boolean bLeftHandDrive;
     String sTransmission;
     int iTyres;
-    //int iDoors;
+    int iDoors;
 
     public void DisplayCharacterstics(){
     	System.out.println("Model of the Car: " +  sModel);
