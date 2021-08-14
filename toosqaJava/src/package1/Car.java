@@ -17,10 +17,10 @@ public class Car  {
     boolean bLeftHandDrive;
     String sTransmission;
     int iTyres;
-    int iDoors;
+    double iDoors;
 
     public void DisplayCharacterstics(){
-    	System.out.println("Model of the Car: " +  sModel);
+    	//System.out.println("Model of the Car: " +  sModel);
     	System.out.println("Number of gears in the Car: " +  iGear);
     	System.out.println("Max speed of the Car: " +  iHighestSpeed);
     	System.out.println("Color of the Car: " +  sColor);
