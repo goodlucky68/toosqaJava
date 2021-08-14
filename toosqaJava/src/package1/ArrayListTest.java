@@ -22,12 +22,13 @@ public class ArrayListTest {
     public static void main(String []args) {
         List<String> words = new ArrayList<String>();
         // append
+      //20210814 测试修改代码后，从本机把代码上传到github，github能收到修改后的代码
         words.add("school");
       //To access an element via index
         printList(words);
 
         words.add(0, "at");
-        System.out.println("> Insert via index");
+        System.out.println("> Insert via index via index");
         printList(words);
 
         words.set(1, "work");
