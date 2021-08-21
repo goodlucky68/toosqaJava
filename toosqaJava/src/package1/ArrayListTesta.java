@@ -30,13 +30,14 @@ public class ArrayListTesta {
         List<String> words = new ArrayList<String>();
         // append
         //20210814 测试修改代码后，从本机把代码上传到github，github能收到修改后的代码
-        //20210814 02 再次修改
+        //20210814 02 再次修改，测试再次提交github
+      //20210814 03 再次修改，修改回来
         words.add("school");
       //To access an element via index
         printList(words);
 
         words.add(0, "at");
-        //System.out.println("> Insert via index");
+        System.out.println("> Insert via index");
         printList(words);
 
         words.set(1, "work");
